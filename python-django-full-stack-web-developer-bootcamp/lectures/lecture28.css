@@ -1,0 +1,65 @@
+/* selected tag {
+  property: value
+} */
+
+/* IDs to taget single elements
+Classes to target groups of elements */
+
+/* div{
+  color:red;
+} */
+
+/* This will make anything with a div tag red */
+
+
+/* A . makes it a class */
+.firstdiv{
+  color: blue;
+}
+
+.seconddiv{
+  color: red;
+}
+
+/* IDs need to be unique, they are attached to a single element */
+/* Classes can be attached to multiple elements */
+/* Ids use # */
+
+#singledout{
+  color: green;
+  text-decoration: line-through;
+}
+
+/* The * allows you the select every element on the page. */
+*{
+  color: black;
+}
+/* will not override Ids; but will override classes */
+
+
+h3 + ul{
+  /* Read as select all unordered list immedately after the H3 tag */
+  border: 4px dotted purple;
+  /* border-color, border-width, border-color This is called an adjuscent sibling*/
+}
+
+/* Instead of calling the properties of borders seprately, I can all them all at once
+    we are calling border thickness, then style and color */
+
+
+/* Decendents */
+/* Select all Anchor tags inside a list */
+li a{
+  color:red;
+}
+
+/* Attributes */
+/* Any anchor tag with this link inside of a unordered list */
+li a[href="https://www.linkedin.com/in/hidhavaldesai/"]{
+  color: blue;
+  border: 5px solid orange;
+}
+
+
+
+/* https://www.w3schools.com/cssref/css_selectors.php */

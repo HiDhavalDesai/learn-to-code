@@ -1,0 +1,33 @@
+td{
+  width: 230px;
+  height: 420px;
+  border: 13px solid white;
+}
+
+
+#one{
+  background-color: #B5BA72;
+}
+
+#two{
+  background-color: #99907D;
+}
+
+#three{
+  background-color: #7D6F86;
+}
+
+#four{
+ background-color: #585191;
+}
+
+#five{
+  background-color: #4F359B;
+}
+
+h1{
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}

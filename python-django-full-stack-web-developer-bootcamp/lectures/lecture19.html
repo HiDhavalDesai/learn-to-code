@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+  </head>
+  <body>
+<form>
+
+  <!-- Resources:
+  https://www.w3schools.com/html/html_form_input_types.asp
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
+
+<!-- <form class="" action="index.html" method="post">
+</form> -->
+
+<!-- Class is mainly for css, action is used to call to the action depending on the type of form and method is a get/post for http method; action is where we send the data
+
+For input, type is what type of input you want; Text, email, password, submit types, radio buttons, drop down, check boxes, color, etc
+
+<input type="text" name="" value="">
+
+Name is the name assigned to input to call it on other files.
+     The name is used to reference the element in javascript, or to retrieve value from the data after the form is submitted
+Value is default value placed inside, placeholder like, but placeholder is better
+
+Input type submit will need a value
+Once you click submit, you can grab information from those cells.
+ -->
+
+  <h1>Log In</h1>
+  <h2>Please Input your Email and password</h2>
+<input type="email" name="useremail" value="Email Here">
+<input type="password" name="password" value="">
+<input type="submit" name="" value="Submit">
+
+<br><br><br>
+<h1>choose color</h1>
+<h2>click on button!</h2>
+<input type="color" name="" value="#33bbee">
+    <!-- Value here can be used as a default font color -->
+
+<br><br><br>
+<h2>Enter text</h2>
+<input type="text" name="" value="Text goes here">
+
+<br><br><br>
+<!-- Playing with other types of input here -->
+<input type="date">
+<input type="datetime-local">
+<input type="url">
+
+<input type="reset">
+</form>
+  </body>
+</html>
+
+<!-- The type of input will drive default behavior -->
+
+<!-- Email type just checks to see if you have an email in the textbox -->
+<!-- Name can be used to reference it later on-->
+
+<!-- You can grab information from those input cells -->

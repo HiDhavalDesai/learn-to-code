@@ -1,0 +1,24 @@
+li{
+  color:red;
+}
+/* this is a general tag, all the list items are red */
+
+.topitems{
+  color: blue;
+}
+
+
+#two{
+  border: 3px solid black;
+}
+
+/* ORDER:
+ID - even more important
+Class tag - more important
+General tag - on bottom
+ */
+
+
+
+ /* Resources: https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+	         https://designshack.net/articles/css/what-the-heck-is-css-specificity/ */

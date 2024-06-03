@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Selctions - Hotel Feedback</title>
+  </head>
+  <body>
+    <h1>Hotel Feedback form:</h1>
+
+    <form method="get">
+       <h2>Are you from the Inside the US? Or outside the US?</h2>
+         <label for="inusa">Inside:</label>
+           <input id="inusa" type="radio" name="loc" value="inside">
+
+          <label for="outusa">Outside:</label>
+          <input id="outusa"type="radio" name="loc" value="outside">
+<!-- Giving the input tags the same name, allows you to switch radio buttons on and off -->
+<!-- Value is used for the URL as well -->
+
+<h2>How was your service?</h2>
+<select class="" name="Stars">
+<!-- class is for CSS -->
+
+<option value="Great">3</option>
+<option value="Okay">2</option>
+<option value="Bad">1</option>
+</select>
+<!-- Ideally the numbers would be the hidden values and then the level of service would be great, okay and bad. -->
+
+<!-- Results - when I click submit - ?loc=&Stars=Okay  --- UPDATED HERE ---  ?loc=inside&Stars=Okay  -->
+
+<h2>Any Other Feedback?</h2>
+<textarea name="mytext" rows="8" cols="80"></textarea>
+<input type="Submit" name="" value="Submit">
+
+    </form>
+
+
+  </body>
+</html>

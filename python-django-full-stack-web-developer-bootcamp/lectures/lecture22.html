@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Level Two Assessment - Course Sign Up Page</title>
+  </head>
+  <body>
+<h1>Course Sign Up Page</h1>
+<p>Please Note: First Name, Last Name, Password, and Email are Required.</p>
+<form action="lecture22-b.html" method="get">
+
+<label for="firstname">First Name:</label>
+<input id="firstname" type="text" name="firstname" placeholder="First Name" required>
+
+<label for="lastname">Last Name:</label>
+<input id="lastname" type="text" name="lastname" placeholder="Last Name" required>
+<br/><br/>
+
+<label for="mail">Email:</label>
+<input id="mail" type="email" name="email" placeholder="name@email.com" required>
+
+<label for="pass">Password:</label>
+<input id="pass" type="password" name="pass" placeholder="" required><br/>
+
+<p>Are you Over the age of 18?</p>
+<label for="Yes">Yes: </label>
+<input id="Yes" type="radio" name="over18" value="Yes">
+
+<label for="No">No: </label>
+<input id="No" type="radio" name="over18" value="No">
+
+<p>Do you have a Credit Card or Paypal?</p>
+<select class="" name="payment">
+  <option value="CC">Credit Card</option>
+  <option value="PayPal">Paypal</option>
+</select>
+<br/><br/>
+
+<input type="Submit" name="" value="Sign Up">
+
+</form>
+<br><br><br>
+<a href="lecture22-b.html">Thank You Page!</a>
+  </body>
+</html>
+
+
+<!-- Result -
+
+?firstname=John&lastname=Doe&email=123%40gmail&pass=1234&over18=No&payment=PayPal
+?firstname=John&lastname=Doe&email=fjdksf%40gmail.com&pass=asd&over18=Yes&payment=CC
+
+-->
+
+
+ 

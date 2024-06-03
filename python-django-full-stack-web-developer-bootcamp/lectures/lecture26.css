@@ -1,0 +1,46 @@
+/* selected tag {
+  property: value
+} */
+
+body{
+  background: url(https://c02.purpledshub.com/uploads/sites/48/2020/04/Things-never-knew-astronomy-e454e5d.jpg);
+  background-repeat: no-repeat;
+  /* This tag does the image of the background and if you want it to repeat. */
+
+  /* background-color: grey
+      you can also use background: grey;
+  */
+  /* Image won't repeat, but if you want it to repeat, you can just use repeat  */
+/*   background-repeat: repeat; */
+}
+
+/* This will make everything in the body tag grey */
+/* changing from grey to URL */
+
+/* Borders will require 3 elements, color, width, style */
+div{
+  background-color: blue;
+  /* background: red; */
+  border-color: orange;
+    /* border color blue */
+  border-width: thick;
+    /* border-width: 2,5,10, 100px; */
+  /* Instead of thick or thin, you can specify the pixels for the border-width; 5px, 10px */
+  border-style: dotted;
+}
+
+/* Will make everything inside of div tags blue */
+/* background-color & background will work the same */
+
+p{
+  color: yellow;
+}
+/* paragraph tag is inside and outside of div, so this is taking all of them and making them all yellow */
+
+
+span{
+  background: red;
+  color: black;
+}
+
+/* Anything inside span tag */

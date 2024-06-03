@@ -1,0 +1,44 @@
+/* This is a comment */
+
+/* General Form of CSS */
+
+/* Selected tag {
+  property: value;
+} */
+
+
+h1{
+   color: blue;    /*This is not common */
+}
+
+/* Only turns yellow if the color will work. */
+
+/* The selected tag is affected, so be sure you want to make a change to all those tags.  */
+
+
+li{
+  color: rgb(255, 97, 0);
+}
+/* rgb(8, 84, 1) */
+/* This is red, green blue code */
+/* Will affect all LI tags in the html */
+
+p{
+  color: #0895a8;
+}
+/* Hexicolor is the most common */
+
+
+h4{
+  color: rgba(255, 97, 0, 1);
+  /* This is red green blue alpha code */
+}
+
+
+/* Googling Color Picker - gives you hexicolor as well as RGB color codes. */
+
+/* RGBA stands for red, blue, green and alpha
+	Alpha is a number between 0 & 1
+		0 is fully transparent                      1 is fully opaque (darkest possible)
+How dark or transparent the color is
+ */

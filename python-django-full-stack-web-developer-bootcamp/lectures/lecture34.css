@@ -1,0 +1,52 @@
+/* h1{
+  font-family: cursive;
+} */
+/* Changes the font to cursive */
+
+h1{
+  font-family: "Arial";
+  text-align: center;
+}
+/* This will make the font type to Arial
+alignment is center, left or right */
+
+
+p{
+  font-family: monospace;
+}
+
+/* The paragraph's are now in monospace; monospace & Cursive are default style */
+
+/* body{
+  font-size: 20px;
+} */
+
+
+
+/* 1EM = 16px
+  2em = 32px */
+
+body{
+  font-size: 20px;
+}
+
+#two{
+  font-size: 1.0em;
+}
+
+
+p{
+  font-style: italic;
+  font-weight: bold, ligher, 200, 300, 500
+}
+
+/* font-weight is how bold the font is */
+
+
+/* Lecture 35-
+
+then to get that google font here, add the font-family to the body or where you want font to appear
+
+h1{
+font-family: abc;
+} */
