@@ -8,10 +8,6 @@ Here you will find all the courses I've completed & the projects I've worked on:
 3.
 <br>
 
- <strong>Project List:</strong>
- 1. xx
- 2. xx
-
 
 Feel free to connect with me on: <a href="https://www.linkedin.com/in/hidhavaldesai/" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="hidhavaldesai-linkedin" height="15" width="20" /></a>
 
