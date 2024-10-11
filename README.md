@@ -1,7 +1,7 @@
 Here you will find all the courses and certifications I have completed.
 
 <strong>Courses I've completed:</strong><br>
-1. <a href="python-django-full-stack-web-developer-bootcamp">HTML, CSS, Javascript, JQuery, Django & Python</a>
+1. <a href="python-django-full-stack-web-developer-bootcamp">HTML, CSS, Javascript, JQuery, Django & Python</a><br>
     Certification:
 2.
 3.
