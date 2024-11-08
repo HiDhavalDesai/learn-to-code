@@ -2,18 +2,24 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Attributes</title>
+    <title>Lecture 12 - Attributes</title>
   </head>
   <body>
-<h1>Attributes</h1>
+    <h1>Attributes</h1>
+<!-- This is how an image is added to HTML, <img src =''>
+src stands for source and alt stands for alternate; it's a self closing tag; for src we just add the link to the image. -->
 
-<!-- Image tag -->
-<img src="https://static.djangoproject.com/img/logos/django-logo-positive.png" alt="Django Image Not Found">
-<!-- if image is in the same directory, just use image.png name -->
-<!-- use alt for detailed description of the image, if not found -->
+<img src="https://static.djangoproject.com/img/logos/django-logo-positive.png" alt="Image not found"> <!-- alt="django.png image not found"-->
+<!-- the file path matters, so becareful. -->
+<!-- if the image is not found, the alternative will take over; the best thing to do would be to use the file name and then write not found, so you can fix your errors easily. -->
 
-<!-- A is an Anchor tag -->
-<a href="lecture12-1.html">A New Page</a>
+<!-- A-tag -->
+<!-- Created a new page lecture12b.html -->
+
+<a href="lecture12b.html">A New Page</a>
+<!-- href means reference to html file; full file path is not added, becasue it's in the same folder; otherwise you would need to add the entire path -->
+
+<!-- HTTP is needed when referencing to things online. -->
 
   </body>
 </html>

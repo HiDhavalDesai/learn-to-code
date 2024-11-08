@@ -1,45 +1,50 @@
-<!DOCTYPE html>     <!--This is the basic html code/strcture. This also tells the broswer this is a html file-->
-<html lang="en" dir="ltr">  <!-- Open tag -->
+<!-- Note: I copied and pasted the previous notes here, and add things as needed -->
+
+<!DOCTYPE html>  <!-- This just tells the broswer that you are looking for at an HTML file -->
+<html lang="en" dir="ltr"> <!-- html opening tag -->
   <head>
-    <meta charset="utf-8">  <!-- Tells you what character set you can expect-->
-    <title>This is the title!</title>    <!-- The title that will show up in the tab -->
-  </head>
-  <body> <!-- This is the actual content -->
+    <meta charset="utf-8">    <!-- This is just telling you what character set you would expect -->
+    <title>Lecture 9 - HTML Tags</title>     <!-- This is basically what will show up as the title on the broswer -->
+  </head>  <!-- This is the head of the html file; the head will contain the metadata, allows you to link your html document to other types of files -->
+
+  <body>  <!-- This is the body of the html file; this is where the acual content will go -->
+
+<h1>This is a Heading 1</h1>   <!-- creates a larger font that is bold -->
+<h2>This is a Heading 2</h2>
+<h3>This is a Heading 3</h3>
+<h6>Heading 6</h6> <!-- Still in bold, but very small -->
+
+<!-- Normal text size is done with a paragraph -->
+<p>This is a paragraph</p>
+<p>This is line 2. THis is continued
+I'm still wriing in line two.</p>
+<p>This is line 3</p>
+
+<!-- Filler text -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<!-- Bold & Italic -->
+<!-- Old Way - Bold -->
+<b><p>This is text that is bold</p></b>
+
+<!-- New Way - Bold -->
+<strong><p>This is text that is bold</p></strong>
+
+<!-- Old Way - Italic -->
+<i><p>This is text that is italic</p></i>
+
+<!-- New Way - Italic -->
+<em><p>This is text that is italic</p></em>
+
+  </body>
+
+</html> <!-- html closing tag -->
+
 
 <!-- Reference links:
 https://www.w3schools.com/html/html_elements.asp
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element -->
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
-<h1>This is a heading 1</h1>
-<h2>This is a heading 2</h2>
-<h3>Heading 3</h3>
-<h6>Heading 6</h6>
+use the developer site more than w3schools
 
-<p>This is a paragraph</p>  <!-- This is normal text size-->
-<p>This is Line 2.
-  This is continued I'm still writing in line two</p>
-<p>This is line 3</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<!-- This is filler text. -->
-<br>
-<!-- Bold & Italic -->
-<!-- old way -->
-<p>This is the Old way</p>
-<p><b>This is text that is in bold</b></p>
-<p><i>This is text that is in italics</i></p>
-<br>
-<!-- new way, new symantic way -->
-<p>This is the new way</p>
-<p><strong>This is text that is in bold</strong></p>
-<p><em>This is text that is in Italics</em></p>
-
-  </body>
-</html>  <!-- closing tag -->
-
-<!-- Be as clear as possible with your code and what you want to do; especially when you come back to it; also make sure to have notes in your code. -->
-
-
-<!-- Head consists of metadata; css and javascript linking place
-Title is what is shown in the tab.
-Body is where we put the actual content. -->
+Be very clear with your code; and make sure to leave comments-->

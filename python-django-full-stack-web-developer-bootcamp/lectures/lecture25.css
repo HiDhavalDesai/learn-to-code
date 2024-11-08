@@ -1,44 +1,36 @@
-/* This is a comment */
+/* Anything in between here is a comment.  */
+/* ctrl + /  is a comment as well */
 
-/* General Form of CSS */
 
-/* Selected tag {
-  property: value;
+/* CSS STRUCTuRE */
+/* Selected tag{
+  property: valie;
 } */
 
+/* This is the format for coding a css file. selected tag{property:value} */
+/* Whatever tag you want to affect, the property of that HTML and then what you want to change that property to */
 
 h1{
-   color: blue;    /*This is not common */
+  color: blue;  /* was changed to red; also not a common way to get color; most common is hexcode*/
 }
+/* the color syntax will not turn to yellow color unless it actaully works; basic colors: red, blue,green, black, purple, orange, etc.. */
+/* Anything with an H1 tag will now be blue */
 
-/* Only turns yellow if the color will work. */
-
-/* The selected tag is affected, so be sure you want to make a change to all those tags.  */
-
+/* There are so many different ways to change color, there is RBG, RBGA, Hexcolor code */
 
 li{
-  color: rgb(255, 97, 0);
+  color: RGB(255,97,0);     /* green was originall called*/
 }
-/* rgb(8, 84, 1) */
-/* This is red, green blue code */
-/* Will affect all LI tags in the html */
+/* Instead of calling just colors directly, and if you want custom colors, you can use RGB, which stands for red, green, blue. This means the amount of red, the amount of green and the amount of blue. */
+/* Google RGB allows you to select the color you want. */
 
 p{
-  color: #0895a8;
+  color: #33bbee;
 }
-/* Hexicolor is the most common */
-
+/* Hex codes are just another way of dispalying the color in an code value  */
 
 h4{
-  color: rgba(255, 97, 0, 1);
-  /* This is red green blue alpha code */
+color: RGBA(255,97,0, 0.5);
 }
-
-
-/* Googling Color Picker - gives you hexicolor as well as RGB color codes. */
-
-/* RGBA stands for red, blue, green and alpha
-	Alpha is a number between 0 & 1
-		0 is fully transparent                      1 is fully opaque (darkest possible)
-How dark or transparent the color is
- */
+/* RED BLUE GREEN ALPHA,  alpha is a paramter that is a number between 0 and 1 and 0 is fully transparent and 1 is opaque, how dark or transparent */
+/* 0 makes it transparent */

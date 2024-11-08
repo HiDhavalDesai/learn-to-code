@@ -2,38 +2,44 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Form Selctions - Hotel Feedback</title>
+    <title>Lecture 21 - Form Selections</title>
   </head>
   <body>
-    <h1>Hotel Feedback form:</h1>
+    <h1>Form Selection</h1>
+      <h2>Hotel Feedback Form</h2>
 
-    <form method="get">
-       <h2>Are you from the Inside the US? Or outside the US?</h2>
-         <label for="inusa">Inside:</label>
-           <input id="inusa" type="radio" name="loc" value="inside">
+<form class="" action="" method="get">
+<!-- We will talk about get method more later; but for now we will leave it as is. -->
+<input type="radio" name="" value="">
+<!-- This is just a normal radio button -->
 
-          <label for="outusa">Outside:</label>
-          <input id="outusa"type="radio" name="loc" value="outside">
-<!-- Giving the input tags the same name, allows you to switch radio buttons on and off -->
-<!-- Value is used for the URL as well -->
+<h4>Are you from inside the US or Outside of US?</h4>
+<label for="insideofUS">Inside of US</label>
+<input id="insideofUS" type="radio" name="loc" value="InsideofUS">
+<label for="outsideofUS">Outside of US</label>
+<input id="outsideofUS" type="radio" name="loc" value="OutsideofUS">
+<!-- the for tag in label allows me to connect to the ID in the input tag; this way a label can connect to an input -->
+<!-- Then to connect the radio buttons, so you can switch them on and off, you make the names the same, which connects the buttons together. The values is what will display on the URL - ?loc=InsideofUS -->
+<!-- Side note for values in the radio buttons, make sure they are oneworld, no spaces -->
 
-<h2>How was your service?</h2>
-<select class="" name="Stars">
-<!-- class is for CSS -->
-
-<option value="Great">3</option>
-<option value="Okay">2</option>
-<option value="Bad">1</option>
+<h4>How was your service?</h4>
+<select class="" name="stars">
+  <!-- Class here will be used for CSS -->
+  <option value="null"></option>
+  <!-- I just added a null value to see what would happen -->
+  <option value="Great">3</option>
+  <option value="Okay">2</option>
+  <option value="Bad">1</option>
+  <!-- A realist example would have the numbers in value instead of as options. This is because then you can do analysis of them. -->
 </select>
-<!-- Ideally the numbers would be the hidden values and then the level of service would be great, okay and bad. -->
-
-<!-- Results - when I click submit - ?loc=&Stars=Okay  --- UPDATED HERE ---  ?loc=inside&Stars=Okay  -->
-
-<h2>Any Other Feedback?</h2>
-<textarea name="mytext" rows="8" cols="80"></textarea>
-<input type="Submit" name="" value="Submit">
-
-    </form>
+<!-- The enture URL looks like - ?loc=InsideofUS&stars=Okay -->
+<h4>Oher Feedback:</h4>
+<textarea name="feedback" rows="8" cols="80"></textarea>
+<!-- The textarea is used when you want a written feedback or something; the input type text won't work, because everything is in one line. -->
+<br>
+<input type="submit" name="" value="Submit">
+</form>
+<!-- Final URL: ?loc=InsideofUS&stars=Okay&feedback=this+is+my+comment -->
 
 
   </body>

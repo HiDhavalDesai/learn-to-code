@@ -1,46 +1,40 @@
-/* selected tag {
-  property: value
-} */
+/* selected tag{
+  property: value;
+}*/
+/* Keeping this here incase I forget how to work with CSS */
 
 body{
-  background: url(https://c02.purpledshub.com/uploads/sites/48/2020/04/Things-never-knew-astronomy-e454e5d.jpg);
-  background-repeat: no-repeat;
-  /* This tag does the image of the background and if you want it to repeat. */
-
-  /* background-color: grey
-      you can also use background: grey;
-  */
-  /* Image won't repeat, but if you want it to repeat, you can just use repeat  */
-/*   background-repeat: repeat; */
+ background: url(https://wildlifesos.org/wp-content/uploads/2021/12/Monkey-Featured-1-1920x900.jpg);
+ background-repeat: repeat;
+ /* was changed from no-repeat to repeat */
+ /* we started with grey background and then moved it to an image */
 }
+/* Calling the body tag will effect everything in the html file, mainly because all the content is in the BODY tag, just not the meta data. The content color was changed to grey */
+/* for color, you can do background or background-color */
 
-/* This will make everything in the body tag grey */
-/* changing from grey to URL */
-
-/* Borders will require 3 elements, color, width, style */
 div{
   background-color: blue;
-  /* background: red; */
-  border-color: orange;
-    /* border color blue */
-  border-width: thick;
-    /* border-width: 2,5,10, 100px; */
-  /* Instead of thick or thin, you can specify the pixels for the border-width; 5px, 10px */
-  border-style: dotted;
-}
 
-/* Will make everything inside of div tags blue */
-/* background-color & background will work the same */
+/* everything inside of the div tag is now blue; color was then changed to red */
+
+/* Borders are going to require three different elements, the color, width and then the style */
+border-color: orange;   /* color was changed from blue */
+border-width: 4px;  /* changed from thick and then thin and then we used pixels */
+/* We can specify left, right, top image, bottom border; then you can use words like thick and thin for the border, or you can use pixels */
+/* Later we will learn how to specify pixel width in relevance or in a realtionship to other elements */
+
+border-style: double;
+/* was changed from dotted to double */
+}
 
 p{
   color: yellow;
 }
-/* paragraph tag is inside and outside of div, so this is taking all of them and making them all yellow */
-
+/* will affect all paragraph tags no matter where they are; this changes the font */
+/* Later we will be able to select elements that are inside of div and also a specific element */
 
 span{
   background: red;
   color: black;
+  /* This color will effect the font color */
 }
-
-/* Anything inside span tag */

@@ -1,33 +1,51 @@
-td{
-  width: 230px;
-  height: 420px;
-  border: 13px solid white;
-}
-
-
-#one{
-  background-color: #B5BA72;
-}
-
-#two{
-  background-color: #99907D;
-}
-
-#three{
-  background-color: #7D6F86;
-}
-
-#four{
- background-color: #585191;
-}
-
-#five{
-  background-color: #4F359B;
-}
-
 h1{
-  font-family: "Shadows Into Light", cursive;
-  font-weight: 400;
+  text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
   font-style: normal;
+}
+/* Correct */
+
+p{
   text-align: center;
 }
+/* Correct */
+
+table{
+  margin: auto;
+}
+/* Correct */
+
+td{
+  border: 13px solid white;
+  height: 410px;
+  width: 200px;
+  text-align: center;
+  vertical-align: bottom;
+}
+/* Correct */
+
+#one{
+  background:#32CBFF;
+}
+/* Correct */
+
+#two{
+  background:#00A5E0;
+}
+/* Correct */
+
+#three{
+  background:#89A1EF;
+}
+/* Correct */
+
+#four{
+  background:#EF9CDA;
+}
+/* Correct */
+
+#five{
+  background:#FECEF1;
+}
+/* Correct */

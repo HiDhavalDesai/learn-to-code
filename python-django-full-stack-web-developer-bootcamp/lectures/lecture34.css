@@ -1,49 +1,54 @@
-/* h1{
-  font-family: cursive;
-} */
-/* Changes the font to cursive */
-
 h1{
   font-family: "Arial";
-  text-align: center;
 }
-/* This will make the font type to Arial
-alignment is center, left or right */
+/* The header was changed to cursive and then Arial, which is a strong so we can change the font */
+/* The default type of font is Times New Romen */
 
 
 p{
   font-family: monospace;
 }
 
-/* The paragraph's are now in monospace; monospace & Cursive are default style */
-
-/* body{
-  font-size: 20px;
-} */
-
-
-
-/* 1EM = 16px
-  2em = 32px */
-
 body{
   font-size: 20px;
 }
+/* Changed the font of the entire page from 10px to 100px; and then changed to 20px */
+
+/* How do we determine the pixel relationships as well as what font size to use; instead of using pixels a better way is using EM values; EM values are a dynamic way of sizing things
+
+Default font  = about 16px and then 1EM = 16px, 2EM = 32px;
+EM stands for - equal to the current font size
+
+if the body font size is provided then you can use EM everywhere else
+*/
 
 #two{
   font-size: 1.0em;
+  /* Since the basic font size is 20px, the 2.0em makes it so that the ID-two is now 2.0EM which is equal to 40px */
 }
 
 
 p{
   font-style: italic;
-  font-weight: bold, ligher, 200, 300, 500
+  font-weight: bold;
 }
 
-/* font-weight is how bold the font is */
+/* Not ever font will have a front style or weight */
+
+h1{
+  text-align: center;
+}
 
 
 /* Lecture 35-
+
+Resources:
+https://en.wikipedia.org/wiki/List_of_typefaces_included_with_Microsoft_Windows
+https://en.wikipedia.org/wiki/List_of_typefaces_included_with_macOS
+https://www.cssfontstack.com/
+https://fonts.google.com/    (get the front from here, and just link it to the site)
+https://fontlibrary.org/
+
 
 then to get that google font here, add the font-family to the body or where you want font to appear
 

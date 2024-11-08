@@ -2,55 +2,65 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>HTML Level Two Assessment - Course Sign Up Page</title>
+    <title>Lecuture 22 - Assessment</title>
   </head>
   <body>
-<h1>Course Sign Up Page</h1>
-<p>Please Note: First Name, Last Name, Password, and Email are Required.</p>
-<form action="lecture22-b.html" method="get">
+<h1>Online Course Sign Up Page</h1>
+<!-- Correct -->
 
-<label for="firstname">First Name:</label>
-<input id="firstname" type="text" name="firstname" placeholder="First Name" required>
-
-<label for="lastname">Last Name:</label>
-<input id="lastname" type="text" name="lastname" placeholder="Last Name" required>
-<br/><br/>
-
+<h4>Please note: First Name, Last Name, Password, & Email are required.</h4>
+<!-- Correct -->
+<form class="" action="lecture22b.html" method="get">
+  <!-- correct -->
+<label for="FN">First Name:</label>
+<!-- coorect -->
+<input id="FN" type="text" name="First_Name" placeholder="First Name" required>
+<!-- correct -->
+<label for="LN">Last Name:</label>
+<!-- correct -->
+<input id="LN" type="text" name="Last_Name" placeholder="Last Name" required>
+<!-- correct -->
+<br><br>
 <label for="mail">Email:</label>
-<input id="mail" type="email" name="email" placeholder="name@email.com" required>
-
+<!-- correct -->
+<input id="mail" type="email" name="Email_Address" placeholder="name@gmail.com" required>
+<!-- correct -->
 <label for="pass">Password:</label>
-<input id="pass" type="password" name="pass" placeholder="" required><br/>
-
-<p>Are you Over the age of 18?</p>
-<label for="Yes">Yes: </label>
-<input id="Yes" type="radio" name="over18" value="Yes">
-
-<label for="No">No: </label>
-<input id="No" type="radio" name="over18" value="No">
-
-<p>Do you have a Credit Card or Paypal?</p>
+<!-- correct -->
+<input id="pass" type="password" name="password" placeholder="" required>
+<!-- correct -->
+<br><br>
+<h4>Are you Over the age of 18?</h4>
+<!-- correct -->
+<label for="Yes">Yes</label>
+<!-- correct -->
+<input id='Yes' type="radio" name="over18" value="over18">
+<!-- correct -->
+<label for="No">No</label>
+<!-- correct -->
+<input id='No' type="radio" name="over18" value="notover18">
+<!-- correct -->
+<br>
+<h4>Do you have a Credit Card or Paypal?></h4>
+<!-- correct -->
 <select class="" name="payment">
+  <!-- correct -->
   <option value="CC">Credit Card</option>
-  <option value="PayPal">Paypal</option>
+  <!-- correct -->
+  <option value="PP">Paypal</option>
+  <!-- correct -->
 </select>
-<br/><br/>
-
-<input type="Submit" name="" value="Sign Up">
+<input type="Submit" name="" value="Submit">
+<!-- correct -->
+<br><br>
+<a href="lecture22b.html">Thank You Page</a>
 
 </form>
-<br><br><br>
-<a href="lecture22-b.html">Thank You Page!</a>
   </body>
 </html>
 
+<!-- Names and values need to be filled out at all times -->
 
-<!-- Result -
-
-?firstname=John&lastname=Doe&email=123%40gmail&pass=1234&over18=No&payment=PayPal
-?firstname=John&lastname=Doe&email=fjdksf%40gmail.com&pass=asd&over18=Yes&payment=CC
-
--->
-
-
- 
+<!-- Results -
+?First_Name=John&Last_Name=Doe&Email_Address=noemail%40gmail.com&password=password&over18=over18&payment=CC
+ -->

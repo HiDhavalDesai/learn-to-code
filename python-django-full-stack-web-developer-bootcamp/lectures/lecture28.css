@@ -1,65 +1,60 @@
-/* selected tag {
-  property: value
+/* select tag {
+  property: value;
 } */
-
-/* IDs to taget single elements
-Classes to target groups of elements */
 
 /* div{
   color:red;
 } */
+/* This is a test/general selctor tag. This was just to show you what the div tag will do, which is making all div tags red; this was deleted, and will be shown as classes and Ids */
 
-/* This will make anything with a div tag red */
-
-
-/* A . makes it a class */
-.firstdiv{
-  color: blue;
+.firstDiv{
+ color: blue;
 }
+/* You tell css that it's a class with a dot (.) */
 
-.seconddiv{
+.secondDiv{
   color: red;
 }
 
-/* IDs need to be unique, they are attached to a single element */
-/* Classes can be attached to multiple elements */
-/* Ids use # */
+/* The two div tags are now different colors; this is because we called the class each individual class was told to have a different color  */
 
+
+/* Ids use hashtag(#) */
 #singledout{
   color: green;
   text-decoration: line-through;
+  /* text-decoration is another property for the text. */
 }
 
-/* The * allows you the select every element on the page. */
-*{
-  color: black;
-}
-/* will not override Ids; but will override classes */
+/* *{
+ color: black;
+} */
+/* The Astrix (*) selects every element on the page, this is not common at all.
+It will color everything black and it will override certain things; it will not override IDs, it does infact override class calls; this was deleted*/
 
 
-h3 + ul{
-  /* Read as select all unordered list immedately after the H3 tag */
+/* Selectors */
+/* https://www.w3schools.com/cssref/css_selectors.php */
+
+/* This is an adjuscent sibling, this has to do with elements that are next to each other. Select all unordeed list items that are next to H3 tags*/
+
+H3 + ul{
   border: 4px dotted purple;
-  /* border-color, border-width, border-color This is called an adjuscent sibling*/
+  /* border style, thickness and color all in one line */
+  /* reads as select all unordered list immediately after h3 */
 }
 
-/* Instead of calling the properties of borders seprately, I can all them all at once
-    we are calling border thickness, then style and color */
+/* This is a Decendents */
+li a {
+ color: red;
 
-
-/* Decendents */
-/* Select all Anchor tags inside a list */
-li a{
-  color:red;
 }
+/* all anchor tags insude of a list */
+
 
 /* Attributes */
-/* Any anchor tag with this link inside of a unordered list */
+/* inside of a list with an anchor tag with a particual href */
 li a[href="https://www.linkedin.com/in/hidhavaldesai/"]{
   color: blue;
   border: 5px solid orange;
 }
-
-
-
-/* https://www.w3schools.com/cssref/css_selectors.php */

@@ -1,40 +1,44 @@
+<!-- Note: I'm using a new document for this -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Lists</title>
+    <title>Lecture 10 - Lists</title>
   </head>
   <body>
-<h1>Lists</h1>
-<ol>    
-  <!-- ordered list -->
-  <li>First Item</li>
-    <!-- li is a list item -->
-  <li>Second Item</li>
-  <li>Third Item</li>
-</ol>
+    <h1>Lists</h1>
+    <ol>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+        <!-- With CSS, you can change how the numbers appear -->
+    </ol>
 
-<ul>
-  <!-- unordered list -->
-  <li>Bullet One</li>
-  <li>Second Item</li>
-  <li>Third Item</li>
-</ul>
+    <ul>
+      <li>Bullet One</li>
+      <li>second Item</li>
+      <li>third Item</li>
+    </ul>
+<!-- The main difference between an ordered list and an unordered list is the numbers and bullet points. -->
 
-<h2>Nested Lists:</h2>
-<!-- Nesting lists -->
+<!-- You can nest lists into each other; ordered in unordered, unordered into ordered -->
+<h1>Nested Lists</h1>
+
 <ol>
   <li>Item One</li>
   <li>Item Two</li>
-<ul>
-  <li>I'm nested inside</li>
-  <li>also nested!</li>
-  <ol>
-    <li><strong>Woah</strong>, I'm really Nested!</li>
-  </ol>
-</ul>
-
+  <ul>
+    <li>I'm Nested insider</li>
+    <li>I'm also nested</li>
+    <ol>
+      <li><strong>Woah</strong> I'm really nested!</li>
+        <!-- This is a 2nd tier nested list -->
+    </ol>
+  </ul>
+  <!-- These are nested, so there is an indentation  -->
 </ol>
+
+
 
   </body>
 </html>

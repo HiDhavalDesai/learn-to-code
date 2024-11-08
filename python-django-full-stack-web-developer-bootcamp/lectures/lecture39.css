@@ -1,69 +1,65 @@
 body{
-  margin: 0px;
-  border-left: 70px solid #33bbee;
-  border-right: 70px solid #33bbee;
-  border-bottom: 70px solid #33bbee;
-  border-top: 0px solid #33bbee;
-
-  /* I could have called border and filled out that; then called border-top and made it 0px, to remove it. */
-}
-
-.main{
+  margin: 0px 0px 0px 0px;
+  background-color: #120a47;
   text-align: center;
-  /* margin: 0px 400px 75px 400px */
-  background-color: #032952;
+  border-bottom: 65px solid #7abaff;
+  border-left: 65px solid #7abaff;
+  border-right: 65px solid #7abaff;
   color: white;
-  padding-left: 350px;
-  padding-right: 350px;
-  font-family: "Roboto", sans-serif;
-font-weight: 100;
-font-style: normal;
+  font-family: "Nerko One"
 }
+
+/* I could have just called border twice, once as a general tag for all sides, and then to remove border top, I could have called that and made it 0px to remove it.
+for margin, I only need to call it once, margin 0px so it would have made it 0 for all sides */
+
 
 h2{
-  margin-bottom: 200px;
+  margin-bottom: 120px;
 }
 
-#top{
-  margin-bottom: 170px;
+#one{
+  margin: 150px 550px 75px 550px;
 }
 
-h4{
-  margin-bottom: 125px;
+p{
+  margin: 150px 550px 10px 550px;
+}
+/* I called margins for the P tags and the ID one which belongs to the paragraph as well, the better thing would have been to call padding for the p tag. */
+
+
+h3{
+  margin-bottom: 90px;
 }
 
-.form{
-  padding: 10px;
+#FN{
+  height: 32px;
+  width: 320px;
 }
 
-.FN{
-  height: 30px;
-  width: 250px;
-  margin-bottom: 10px;
+#LN{
+  height: 32px;
+  width: 320px;
 }
 
-.LN{
-  height: 30px;
-  width: 250px;
-  margin-bottom: 10px;
+#mail{
+  height: 32px;
+  width: 320px;
 }
 
-.M{
-  height: 30px;
-  width: 250px;
-  margin-bottom: 10px;
+#button{
+  margin-top: 10px;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  background-color: #b0c41a;
+  width: 200px;
+  border-radius: 20px;
+  font-size: 30px;
+  margin-bottom: 5px;
+  border: 2px solid white;
 }
 
-.btton{
-  height: 70px;
-  width: 160px;
-  font-size: 15px;
-  border-radius: 12px;
-   color: #032952;
-   background-color: yellow;
-   margin-bottom: 5px;
-}
+/* According to the solution, the form could have been called to change the font size and the margin; I didn't even realize that the font size changed.. */
 
-a:visited{
-  color: red;
-}
+/* I feel that my code did exactly what it was suppose to, however, it was not the same as the course, but that's okay. I got to use other properties that I wouldn't have used normally */

@@ -1,24 +1,20 @@
 li{
-  color:red;
+  color: red;
 }
-/* this is a general tag, all the list items are red */
+/* We selected this first, so see can see what the general tag  of the element will do */
 
 .topitems{
   color: blue;
 }
-
+/* The elements with this class will override the red */
 
 #two{
   border: 3px solid black;
 }
+/* ID overrides everything else */
 
-/* ORDER:
-ID - even more important
-Class tag - more important
-General tag - on bottom
+/* This is how the order of specificity works
+Id tag
+Class Tag
+General Tag
  */
-
-
-
- /* Resources: https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
-	         https://designshack.net/articles/css/what-the-heck-is-css-specificity/ */
