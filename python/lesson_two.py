@@ -19,12 +19,41 @@ print(f"Your email is {email}")
 
 #Integers - whole number, age (example)
 age = 25
-
+quantity = 3
+num_of_students = 30
 
 print(f"You are {age} years old")
+print(f"You are buying {quantity} items")
+print(f"Your class has {num_of_students} students")
 
 
-#Float
+#Float (has a decimal)
+price = 10.99
+gpa = 3.2
+distance = 5.5
 
+print(f"The price is ${price}")
+print(f"You GPA is: {gpa}")
+print(f"You ran {distance}KM")
 
-#Booleans
+#Booleans - is either True or False
+is_student = True
+for_sale = False
+is_online = False
+
+print(f"Are you a student: {is_student}")
+# If-statement with a boolean
+if is_student:
+    print("Yes, I am a student")
+else :
+    print("No I am not a student")
+
+if for_sale:
+    print("The Car is for sale")
+else:
+    print("The car is not for sale")
+
+if is_online:
+    print("You are Online")
+else:
+    print("You are offline")
