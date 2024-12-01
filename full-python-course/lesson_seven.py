@@ -14,7 +14,7 @@ else:
 # The purpose of this is to check if the temp meets the conditions of being either greater than 35 or less than 0 or if it's raining.
 
 
-# And operator, both need to be true
+# And operator, both conditions need to be true
 temp_2 = 20
 is_sunny = False
 
@@ -28,6 +28,7 @@ elif temp_2 < 28 and temp_2 > 0 and is_sunny:
     # another way to do this is 28 > temp > 0 and is_sunny:
     print("It is warm outside")
     print("It is sunny")
+    # inverts the condition.
 elif temp_2 >= 28 and not is_sunny:
     print("It is hot outside")
     print("It is cloudy")

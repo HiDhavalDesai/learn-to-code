@@ -1,6 +1,7 @@
 # Conditional Expressions = A one-line shortcut for the if-else statement (ternary operator)
 #               Print or assign one of two values based on a condition
 #               Formula - X if condition else Y
+#                   if condition is true run x else y
 
 num = 1
 print("Positive" if num > 0 else "negative")
